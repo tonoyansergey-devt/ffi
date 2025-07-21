@@ -1,5 +1,9 @@
 jobs:
   include:
+  - dist: xenial
+    os: linux
+  - dist: bionic
+    os: linux
   - os: windows
     deploy:
     - provider: releases
