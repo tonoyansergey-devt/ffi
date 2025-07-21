@@ -6,7 +6,7 @@ jobs:
       token: "$GITHUB_APIKEY"
       file: "$FILE_NAME"
       skip_cleanup: true
-      dpl_version: 2.1.1
+      dpl_version: 2.0.1
       on:
         tags: false
 os: linux
